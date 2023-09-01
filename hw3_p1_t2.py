@@ -2,8 +2,6 @@
 # Реализуйте паттерн Singleton на языке Python для класса Logger, который будет использоваться для логирования информации в приложении. 
 # Гарантируйте, что только один экземпляр класса Logger будет создан.
 
-from datetime import datetime
-
 class Logger:
     _instance = None
     def __new__(cls):
